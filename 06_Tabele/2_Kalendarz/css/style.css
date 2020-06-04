@@ -14,7 +14,9 @@ thead th {
     padding-top:10px;
     padding-bottom:10px;
 }
-thead {}
+thead {
+    width: 600px;
+}
 tr td {
     padding:30px;
     border:1px solid #ddd;

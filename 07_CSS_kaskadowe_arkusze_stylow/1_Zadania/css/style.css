@@ -1,6 +1,11 @@
+/*W pliku style.css zmień kolor tła elementu body na darkgoldenrod.*/
+/*Kolor tła to właściwość background-color.*/
+
+
 body {
     padding: 20px;
-    background: #EEE;
+    /*background: #EEE;*/
+    background-color: darkgoldenrod;
 }
 
 .book {
