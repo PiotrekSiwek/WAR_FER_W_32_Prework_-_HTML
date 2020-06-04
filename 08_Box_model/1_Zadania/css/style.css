@@ -29,9 +29,15 @@ h1, h2, h3 {
 }
 
 .content {
-    flex-grow: 1;    
+    width:100%;
+    max-width: 80%;
+    flex-grow: 1;
     background: #FFF;
     margin:10px auto;
+    padding: 50px;
+    box-sizing: border-box;
+/*maksymalną szerokość (max-width) na 80%,*/
+/*wewnętrzny odstęp od krawędzi elementu 50px z każdej strony,*/
 }
 
 .btn {    
@@ -39,6 +45,11 @@ h1, h2, h3 {
     background: #FFAA2F;
     color:#fff;
     border-radius: 40px;
+    padding: 20px 40px;
+    margin-bottom: 20px;
+    display: inline-block;
+    /*odstęp wewnętrzny ustawiony na 20px 40px,*/
+    /*margines dolny 20px.*/
 }
 
 .gallery-title {
@@ -54,4 +65,7 @@ h1, h2, h3 {
 .gallery-content {
     display: flex;
     flex-direction: row;
+}
+.gallery {
+    overflow: auto;
 }
