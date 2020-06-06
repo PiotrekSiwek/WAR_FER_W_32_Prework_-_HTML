@@ -9,9 +9,22 @@ body {
     box-shadow: 0 1px 5px rgba(0,0,0,0.1);
     margin-bottom: 20px;
     background: linear-gradient(to right, #FF8D80, #FF6352);
+    display: flex;
+    justify-content: space-between;
+    /*display: flex;           !* establish flex container *!*/
+    /*flex-direction: column;  !* make main axis vertical *!*/
+    /*justify-content: center; !* center items vertically, in this case *!*/
+    /*align-items: center;     !* center items horizontally, in this case *!*/
 }
-.menu {}
+.menu {
+}
+.logo {
+    display: flex;
+    align-items: center;
+}
 .menu-list {
+    display: flex;
+    align-items: flex-end;
     list-style: none;
     padding:0;
     margin:0;
