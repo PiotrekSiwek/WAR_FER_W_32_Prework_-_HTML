@@ -1,6 +1,6 @@
 body {
     padding: 20px;
-    background: #EEE;
+    background-color: darkgoldenrod;
 }
 
 .book {
@@ -62,6 +62,7 @@ body {
     body {
         margin: 0;
         padding: 10px;
+
     }
 
     .book {
