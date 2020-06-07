@@ -4,5 +4,5 @@
     height: 400px;
     background-image: url(../images/cat.jpeg);
     background-position: center; /*centering the image within container*/
-    background-size: cover;  /*making image auto-adjust size to fit it's container*/
+    background-size: cover;  /*making image fully fit it's container*/
 }
