@@ -1,6 +1,8 @@
 body {
     padding: 20px;
     background: #EEE;
+    background-color: darkgoldenrod;
+
 }
 
 .book {
@@ -47,6 +49,7 @@ body {
     .book-content {
         display: flex;
         flex-direction: column;
+
     }
 
     .book-content img {
@@ -62,6 +65,7 @@ body {
     body {
         margin: 0;
         padding: 10px;
+        background-color: black;
     }
 
     .book {

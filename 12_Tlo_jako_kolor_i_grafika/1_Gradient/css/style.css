@@ -1,0 +1,7 @@
+.gradient{
+    width: 500px;
+    height: 200px;
+    background: rgb(63,94,251);
+    background: linear-gradient(209deg, rgba(63,94,251,1) 0%, rgba(78,220,137,1) 43%, rgba(252,70,205,0.804359243697479) 75%);
+}
+

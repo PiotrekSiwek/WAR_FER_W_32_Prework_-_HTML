@@ -13,3 +13,17 @@ hr {
 .title {
   color: crimson;
 }
+
+.menu{
+ list-style: none;
+ display: flex;
+}
+
+.menu a{
+  display: block;
+  padding: 20px;
+}
+
+.books{
+  list-style: decimal;
+}

@@ -1,0 +1,6 @@
+.cat{
+    width:600px;
+    height:400px;
+    background: url("../images/cat.jpeg") 50% 50%;
+    background-size: cover;
+}
